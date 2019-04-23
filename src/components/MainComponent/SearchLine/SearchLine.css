@@ -1,0 +1,87 @@
+
+.searchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.image {
+    overflow:hidden;
+    width: 150px;
+    height:150px;
+    border-radius: 100px;
+}
+
+.image img {
+    transition: all 0.8s ease-out;
+    position: relative;
+}
+    
+.image img:hover{
+    transform: scale(1.2);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: rgb(219, 218, 218);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.track-name {
+    color: rgb(219, 218, 218);
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+}
+
+.box-wrapper {
+    display: block;
+    height: 400px;
+    width: 150px;
+    border: 0.1px solid rgb(32, 32, 32);
+    color: white;
+    border-radius: 100px 100px 100px 100px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 22px;
+    margin-bottom: 12px;
+    background-color: rgb(32,32,32);
+    box-shadow: 0 1px 2px 0 rgba(rgb(199, 199, 199), 0.5);
+
+}
+
+.navContainer {
+    display: flex;
+    padding-bottom: 2px;
+    border-radius: 50px;
+}
+
+.navBlock {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-title {
+    font-weight: 500;
+    color: #A7A4A4;
+    align-self: center;
+    padding-left: 15px;
+  }
+  
